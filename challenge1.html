@@ -2,15 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/challenge1.css">
   <title>JS Challenge #1</title>
 </head>
 <body>
-  <head>
-    <title>JavaScript Challenge #1</title>
-   <link rel="stylesheet" type="text/css" href="css/challenge1.css">
-  </head>
-  <body>
     <main>
       <h1>Challenge One</h1>
       <form action="challenge2.html">
@@ -18,7 +13,7 @@
           <legend>Email subscriptions</legend>
           <div id="check">
             <label>
-              <input type="checkbox" name="subscribe" id="subscribe">
+              <input type="checkbox" name="subscribe" id="subscribe" onclick = challenge1(this)>
               Check to toggle the email field.
             </label>
           </div>
@@ -34,5 +29,8 @@
         </fieldset>
       </form>
   </main>
+  <script src="js/jsChallenges.js"></script>
+
+
   </body>
 </html>
