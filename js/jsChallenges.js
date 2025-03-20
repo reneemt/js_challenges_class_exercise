@@ -71,12 +71,4 @@ function challenge3() {
   
   return true; // Allow form submission
 }
-
-function updateFooterYear() {
-  const footerYear = document.getElementById("currentYear");
-  if (footerYear) {
-    footerYear.textContent = new Date().getFullYear();
-  }
-}
-
-window.addEventListener("load", updateFooterYear);
+ 
